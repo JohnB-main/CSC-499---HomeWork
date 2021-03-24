@@ -15,21 +15,33 @@ Files Includes:
 	ReverseResult.txt - Text file with the result of testing a reverse sort
 	simUserNormal.txt - Text file with the input for a normal sort and program end
 	simUserReverse.txt - Text file with the input for a reverse sort and program end
-	testing.sh - The testing shell script. Prints the differences in the files using diff,
+	testing1.sh - The testing shell script. Prints the differences in the files using diff,
 		or prints that the files for the sorts are the same.
 
 
 How to Run:
-	Make sure sort.py and 'Sort Me.txt' are in the same folder
-	Open a terminal/cmd in that same folder
-	Use the command "python3 sort.py" to run the python file
-	Then follow the prompt on the screen:
-		Enter a "1" to sort normally, a "2" to sort in reverse, and a "0" to stop sorting
-	The results will print to the terminal as you choose different options.
+	Sorting Method:
+		Make sure sort.py and 'Sort Me.txt' are in the same folder
+		Open a terminal/cmd in that same folder
+		Use the command "python3 sort.py" to run the python file
+		Then follow the prompt on the screen:
+			Enter a "1" to sort normally, a "2" to sort in reverse, and a "0" to stop sorting
+		The results will print to the terminal as you choose different options.
+	
+	Sorting Test:
+		*This testing will need to be done in linux since a shell script is used
+			Preferrably an ubunutu version
+		Make sure all files of the repo are in the same folder
+		Open a terminal in that same folder
+		Use the command "./testing1.sh" to run the test
+			You do not need to have run the sorting method before testing,
+				the test will run it automatically
+		The terminal will now print the results of the test.
+		
 	
 Possible Issues:
 	You could have to use a different python initiator
 		other examples are: py, python2, python
 		If others do not work, finding you python executable path, and then naming sort.py should work
 		Also, make sure python is installed on your machine
-	
+	Your version of linux could use different command syntax, for files used in the shell script

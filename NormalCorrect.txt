@@ -1,6 +1,6 @@
 Enter 1 for normal sort, 2 for reverse, or 0 to quitKha
-Asby
 Bain
+Asby
 Dean
 Fife
 Wile

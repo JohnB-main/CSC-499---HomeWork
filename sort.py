@@ -24,7 +24,5 @@ while (True):
         break
     elif (decision=="1"):
         SortTextFile("Sort Me.txt", 1)
-    else:
-        SortTextFile("Sort Me.txt", 2)
 print("Thank you for sorting.")
     

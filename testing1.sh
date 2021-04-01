@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+set -o pipefail
 # basic testing for comparison of normal sort and reverse sort to their supposed correct outputs
 echo "Starting Test script"
 echo "Testing Normal Sort"
